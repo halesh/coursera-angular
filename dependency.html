@@ -8,20 +8,11 @@
 <body>
     <h1>Class Angular by Coursera</h1>
     <div ng-controller="MyFirstController">
-    <h3> {{myFirstFunc()}} </h3>
+    <h3> Dependency Injection</h3>
      <input type="text" 
             ng-model="name"
-            ng-keyup="calculateName();">
-
+            ng-blur="upper();">
      </input>
-     The Numeric value of the: {{name}}: {{totalValue}}
-     <br />
-     <br />
-     <button ng-click='feedHalesh()'>How are you?</button>
-     <br />
-     <h3> {{msgState}}</h3>
-     <br />
-     <img ng-src="images/hal_{{stateOfBeing}}.png" width="150" height="200">
     </div>
 </body>
 </html>
